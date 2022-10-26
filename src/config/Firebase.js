@@ -4,7 +4,7 @@ import { getAuth } from 'firebase/auth';
 // TODO: replace with your own config
 const firebaseConfig = {
 
-    apiKey: "process.env.REACT_APP_FIREBASE_KEY",
+    apiKey: process.env.REACT_APP_FIREBASE_KEY,
     authDomain: "movie-app-acd2e.firebaseapp.com",  
     projectId: "movie-app-acd2e",  
     storageBucket: "movie-app-acd2e.appspot.com",
